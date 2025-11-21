@@ -275,8 +275,8 @@ export default function Step3() {
     }
 
     localStorage.setItem("step3Data", JSON.stringify({ places: selectedPlaces }));
-    toast.success("Let's create your itinerary!");
-    navigate("/step4");
+    toast.success("Your personalized itinerary is ready!");
+    navigate("/");
   };
 
   const allPlaces = [...matchedPlaces, ...otherPlaces];

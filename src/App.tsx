@@ -8,8 +8,6 @@ import Auth from "./pages/Auth";
 import Step1 from "./pages/Step1";
 import Step2 from "./pages/Step2";
 import Step3 from "./pages/Step3";
-import Step4 from "./pages/Step4";
-import Community from "./pages/Community";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -26,8 +24,6 @@ const App = () => (
           <Route path="/step1" element={<Step1 />} />
           <Route path="/step2" element={<Step2 />} />
           <Route path="/step3" element={<Step3 />} />
-          <Route path="/step4" element={<Step4 />} />
-          <Route path="/community" element={<Community />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
