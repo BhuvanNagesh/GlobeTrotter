@@ -147,7 +147,7 @@ export default function Landing() {
             <Button size="lg" className="text-lg px-8 py-6 bg-gradient-to-r from-cyan-500 to-violet-500 hover:from-cyan-600 hover:to-violet-600 text-white shadow-xl hover:shadow-cyan-500/50 transition-all duration-300 animate-glow-pulse" onClick={handleStartPlanning}>
               Start Planning →
             </Button>
-            <Button size="lg" variant="outline" className="text-lg px-8 py-6 glass border-2 border-cyan-400/50 hover:border-cyan-400 hover:bg-cyan-400/10 text-foreground transition-all duration-300" onClick={handleStartPlanning}>
+            <Button size="lg" variant="outline" className="text-lg px-8 py-6 glass border-2 border-cyan-400/50 hover:border-cyan-400 hover:bg-cyan-400/10 text-foreground transition-all duration-300" onClick={() => navigate("/community")}>
               Explore Community Trips
             </Button>
           </motion.div>
